@@ -1,0 +1,58 @@
+body{
+	background: f1fbff;
+}
+.section-padding{
+    padding: 20px 0px;
+
+}
+
+
+#back-img
+{
+    outline: auto rgb(240, 235, 235) ;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+.des-text{
+    font-size: 15px;
+}
+
+.portfolio-btn{
+    box-shadow: rgb(15, 141, 84) 0px 2px 4px 0px;
+    color: rgb(36, 55, 99);
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out 0s;
+    
+  
+
+}
+
+.portfolio-btn:hover{
+    background-color: rgb(36, 55, 99);
+    color: white;
+    box-shadow: none;
+}
+
+.dash-div{
+    border: 4px solid #30ada7;
+    border-radius: 10px;
+    border-top: 4px dashed #30ada7;
+    border-bottom: 4px dashed #30ada7;
+    padding: 25px;
+    margin-top: 150px;
+}
+.text{
+    color: black;
+}
+
+@media screen  and (max-width:767px){
+    .dash-div{
+    
+        margin-top: 20px;
+    }
+
+}
